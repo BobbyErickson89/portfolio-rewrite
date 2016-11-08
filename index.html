@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="portfolioApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="app/app.js"></script>
+  </head>
+  <body ng-controller="ProjectListController">
+
+    <ul>
+      <li ng-repeat="project in projects">
+        <span>{{project.title}}</span>
+        <p>{{project.description}}</p>
+      </li>
+    </ul>
+
+  </body>
+</html>

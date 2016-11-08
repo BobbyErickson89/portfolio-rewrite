@@ -1,0 +1,14 @@
+{
+  "name": "angular-game",
+  "version": "1.0.0",
+  "description": "Creating a matching game through the power of Angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "author": "",
+  "license": "ISC"
+}
