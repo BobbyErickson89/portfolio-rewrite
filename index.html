@@ -2,11 +2,27 @@
 <html lang="en" ng-app="portfolioApp">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Bobby Erickson</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <!-- <link rel="stylesheet" href=""/> -->
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="app/app.js"></script>
   </head>
-  <body ng-controller="ProjectListController">
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" href="#">Work</a>
+            <a class="navbar-brand" href="#">Contact</a>
+          </div>
+        </div>
+
+      </nav>
+    </header>
+  </body>
+  <!-- <body ng-controller="ProjectListController">
 
     <ul>
       <li ng-repeat="project in projects">
@@ -15,5 +31,5 @@
       </li>
     </ul>
 
-  </body>
+  </body> -->
 </html>
